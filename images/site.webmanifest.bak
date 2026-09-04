@@ -1,7 +1,7 @@
 {
-  "name": "Angels Landing",
-  "short_name": "Angels Landing",
-  "description": "A scroll-driven trail ascent visualizer for the Angels Landing hike in Zion National Park.",
+  "name": "Orlando Magic Scouting App",
+  "short_name": "Orlando Magic Scouting App",
+  "description": "Orlando Magic Scouting App - Portfolio - Case Study - Tim (Timber) Hjellum",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#241823",
