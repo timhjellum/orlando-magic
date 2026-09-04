@@ -1,14 +1,9 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width">
-    <meta name="title" content="Orlando Magic Scouting App - Portfolio - Case Study - Tim (Timber) Hjellum">
-    <meta name="description" content="Orlando Magic Scouting App - Portfolio - Case Study - Tim (Timber) Hjellum">
-    <meta name="robots" content="index, follow">
-    <meta name="language" content="English">
-    <meta name="revisit-after" content="30 days">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Orlando Magic Scouting App - Portfolio - Case Study - Tim (Timber) Hjellum/title>
         <!-- Favicons -->
         <link rel="icon" type="image/x-icon" href="/images/favicon.ico" />
@@ -19,7 +14,6 @@
         <link rel="icon" type="image/png" sizes="192x192" href="/images/android-chrome-192x192.png" />
         <link rel="icon" type="image/png" sizes="512x512" href="/images/android-chrome-512x512.png" />
         <link rel="manifest" href="/images/site.webmanifest" />
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
         <style>
             /*
    * Committed dark treatment: the Magic's court runs blue-to-black under the
@@ -720,7 +714,8 @@
                 }
             }
         </style>
-
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Oswald:wght@500;600;700&family=Source+Sans+3:ital,wght@0,400;0,600;1,400&family=IBM+Plex+Mono:wght@400;500&display=swap">
+        <link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
