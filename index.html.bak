@@ -824,7 +824,15 @@
                 <p>High-fidelity prototypes were built on a <strong>responsive grid</strong> and run through formative testing against the front office's most complex real-world use cases &mdash; building a draft board under time pressure, filing an urgent injury report, cross-referencing a scout's notes against a player's college stats &mdash; before any design was considered final.</p>
                 <p>The brief was to deliver <strong>highly usable, efficient solutions</strong> with a genuinely responsive interface, and to hold every layout, web part, and app to <strong>pixel-perfect</strong> execution against the Magic's existing design standards and branding requirements.</p>
             </div>
-<div class="steps"></div>
+            <div class="chip-row">
+                <span class="chip is-accent">Master Pages</span>
+                <span class="chip is-accent">Web Parts</span>
+                <span class="chip is-accent">CSS</span>
+                <span class="chip is-accent">jQuery</span>
+                <span class="chip is-accent">Bootstrap</span>
+                <span class="chip is-accent">Knockout</span>
+                <span class="chip is-accent">SharePoint</span>
+            </div>
         </section>
 
         <section class="gallery-section" id="application">

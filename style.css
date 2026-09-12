@@ -1,0 +1,78 @@
+.tag {
+	/*
+	font-size: 13px;
+	font-weight: 600;
+	padding: 8px 16px;
+	border-radius: 999px;
+	border: 1px solid var(--line);
+	background: var(--bg-panel);
+	color: var(--muted);
+	white-space: nowrap;
+	*/
+	opacity: 0;
+	transform: translateY(8px);
+	animation: rise 0.45s ease forwards;
+	transition:
+		color 0.2s ease,
+		border-color 0.2s ease;
+}
+*/
+/*
+.tag:hover {
+	color: var(--ink);
+	border-color: rgba(110, 168, 255, 0.42);
+}
+*/
+.steps {
+	display: grid;
+	gap: 18px;
+	grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+}
+
+.card {
+	/*
+	position: relative;
+	background: linear-gradient(180deg, var(--card), var(--bg-2));
+	border: 1px solid var(--line);
+	border-radius: 16px;
+	padding: 24px 22px 26px;
+	*/
+	transition:
+		transform 0.25s ease,
+		border-color 0.25s ease,
+		box-shadow 0.25s ease;
+	opacity: 0;
+	transform: translateY(14px);
+	animation: rise 0.55s ease forwards;
+}
+
+@keyframes rise {
+	to {
+		opacity: 1;
+		transform: none;
+	}
+}
+
+.card:hover {
+	transform: translateY(-4px);
+	/*
+	border-color: rgba(110, 168, 255, 0.42);
+	box-shadow: 0 18px 40px -22px rgba(0, 0, 0, 0.9);
+	*/
+}
+
+.card::before {
+	content: "";
+	position: absolute;
+	left: 22px;
+	right: 22px;
+	top: 0;
+	height: 1px;
+	background: linear-gradient(90deg, transparent, var(--accent), transparent);
+	opacity: 0;
+	transition: opacity 0.25s ease;
+}
+
+.card:hover::before {
+	opacity: 0.85;
+}
